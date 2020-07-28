@@ -11,7 +11,7 @@ samples = {'July242020':'https://www.rev.com/blog/transcripts/donald-trump-speec
 'July152020':'https://www.rev.com/blog/transcripts/donald-trump-atlanta-speech-transcript-on-rebuilding-infrastructure-july-15',
 'July092020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-on-his-executive-order-for-the-hispanic-prosperity-initiative-july-9',
 'July072020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-safely-reopening-schools-amid-covid-19-pandemic',
-'July0420200':'https://www.rev.com/blog/transcripts/donald-trump-salute-to-america-speech-transcript',
+'July042020':'https://www.rev.com/blog/transcripts/donald-trump-salute-to-america-speech-transcript',
 'July032020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-at-mount-rushmore-4th-of-july-event',
 'July022020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-at-spirit-of-america-showcase',
 'June262020':'https://www.rev.com/blog/transcripts/donald-trump-speech-to-american-workforce-policy-advisory-board-june-26',
