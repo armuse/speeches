@@ -8,7 +8,8 @@ import glob
 import pandas as pd
 from numpy import random
 
-transcripts = glob.glob('../data/Biden/*.txt')
+transcripts = glob.glob('../data/Trump/*.txt')
+#transcripts = glob.glob('../data/Biden/*.txt')
 
 random.shuffle(transcripts)
 trainFrac = int(len(transcripts)*0.9)
@@ -70,7 +71,7 @@ X = vectorizer.transform(speeches)
 #first_doc_vec = tf_idf_vec[0]
 #print(first_doc_vec)
 
-k = 3	
+k = 8	
 model = KMeans(n_clusters=k, init='k-means++', max_iter=100, n_init=1)
 model.fit(X)
 
