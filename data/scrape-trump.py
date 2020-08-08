@@ -6,7 +6,8 @@ from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 from nltk.tag import pos_tag
 
-samples = {'July242020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-july-24-signs-executive-orders-to-lower-prescription-drug-prices',
+samples = {
+'July242020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-july-24-signs-executive-orders-to-lower-prescription-drug-prices',
 'July162020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-on-rolling-back-environmental-regulations',
 'July152020':'https://www.rev.com/blog/transcripts/donald-trump-atlanta-speech-transcript-on-rebuilding-infrastructure-july-15',
 'July092020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-on-his-executive-order-for-the-hispanic-prosperity-initiative-july-9',
@@ -25,6 +26,11 @@ samples = {'July242020':'https://www.rev.com/blog/transcripts/donald-trump-speec
 'May192020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-supporting-farmers-ranchers-may-19',
 'May152020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-on-vaccine-development-for-coronavirus',
 'May142020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-at-pennsylvania-distribution-center-for-coronavirus-relief-supplies',
+'August062020':'https://www.rev.com/blog/transcripts/donald-trump-speaks-at-ohio-airport-transcript-august-6-says-joe-biden-against-god',
+'August052020':'https://www.rev.com/blog/transcripts/donald-trump-coronavirus-press-conference-transcript-august-5',
+'July282020':'https://www.rev.com/blog/transcripts/donald-trump-coronavirus-press-conference-transcript-july-28',
+'April282020':'https://www.rev.com/blog/transcripts/donald-trump-coronavirus-press-conference-transcript-april-28',
+'February172020':'https://www.rev.com/blog/transcripts/trump-speech-transcript-at-opportunity-now-summit-in-charlotte-nc',
 
 }
 
