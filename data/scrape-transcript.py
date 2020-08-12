@@ -42,14 +42,14 @@ samples_trump = {
 'March032020':'https://www.rev.com/blog/transcripts/donald-trump-national-association-of-counties-speech-transcript',
 'February202020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-at-the-hope-for-prisoners-graduation-ceremony',
 'February162020':'https://www.rev.com/blog/transcripts/donald-trump-daytona-500-speech-transcript-trump-is-first-president-to-be-daytona-grand-marshal',
-'Febrauray102020':'https://www.rev.com/blog/transcripts/donald-trump-national-governors-association-speech-transcript',
+'February102020':'https://www.rev.com/blog/transcripts/donald-trump-national-governors-association-speech-transcript',
 'February072020':'https://www.rev.com/blog/transcripts/trump-speech-transcript-at-opportunity-now-summit-in-charlotte-nc',
 'February062020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-2020-national-prayer-breakfast-trump-goes-after-romney-and-democrats-in-speech',
 'February042020':'https://www.rev.com/blog/transcripts/donald-trump-state-of-the-union-speech-transcript-february-4-2020',
 'January282020':'https://www.rev.com/blog/transcripts/donald-trump-middle-east-peace-speech-transcript-with-israel-pm-netanyahu',
 'January242020':'https://www.rev.com/blog/transcripts/donald-trump-speech-transcript-trump-speaks-at-march-for-life-event',
 'January082020':'https://www.rev.com/blog/transcripts/donald-trump-iran-statement-transcript-trump-makes-statement-after-iran-attacks-us-bases-in-iraq',
-'January0320200':'https://www.rev.com/blog/transcripts/donald-trump-iran-statement-speech-transcript-trump-orders-strike-on-qasem-soleimani',
+'January032020':'https://www.rev.com/blog/transcripts/donald-trump-iran-statement-speech-transcript-trump-orders-strike-on-qasem-soleimani',
 'October272019':'https://www.rev.com/blog/transcripts/donald-trump-raid-announcement-transcript-isis-leader-abu-bakr-al-baghdadi-killed',
 'October032019':'https://www.rev.com/blog/transcripts/trump-transcript-trump-says-china-should-investigate-biden',
 'August212019':'https://www.rev.com/blog/transcripts/transcript-donald-trump-states-i-am-the-chosen-one-in-front-of-white-house-in-china-statement-to-press',
@@ -62,8 +62,6 @@ samples_trump = {
 'April192016':'https://www.rev.com/blog/transcripts/donald-trump-michigan-speech-transcript-asks-black-voters-what-do-you-have-to-lose',
 
 }
-
-#TODO:make a few changes to allow trump/biden
 
 samples_biden = {'July082020': 'https://www.rev.com/blog/transcripts/joe-biden-speech-transcript-at-ibews-2020-virtual-political-conference',
 'June252020':'https://www.rev.com/blog/transcripts/joe-biden-speech-treanscript-on-health-care-affordable-care-act',
@@ -108,7 +106,8 @@ for key in samples:
 	stop_words = set(stopwords.words('english'))
 	removeThese = ['donald','trump','http','https','datepublished','datemodified',
 		'thank','america','great','president','going','american','want','like',
-		'people','know','url','got','say','said',]
+		'people','know','url','got','say','said','good','everybody','make','again',
+		'opportunity','really']
 	stop_words.update(removeThese)
 
 	for words in transcript:
